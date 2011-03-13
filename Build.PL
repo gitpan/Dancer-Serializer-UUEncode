@@ -23,13 +23,14 @@ my %module_build_args = (
     'Sawyer X <xsawyerx@cpan.org>'
   ],
   'dist_name' => 'Dancer-Serializer-UUEncode',
-  'dist_version' => '0.01',
+  'dist_version' => '0.02',
   'license' => 'perl',
   'module_name' => 'Dancer::Serializer::UUEncode',
   'recommends' => {},
   'recursive_test_files' => 1,
   'requires' => {
     'Carp' => '0',
+    'Dancer' => '0',
     'Dancer::Serializer::Abstract' => '0',
     'Storable' => '0'
   },

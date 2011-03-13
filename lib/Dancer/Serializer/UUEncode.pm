@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Dancer::Serializer::UUEncode;
 BEGIN {
-  $Dancer::Serializer::UUEncode::VERSION = '0.01';
+  $Dancer::Serializer::UUEncode::VERSION = '0.02';
 }
 # ABSTRACT: UU Encoding serializer for Dancer
 
@@ -63,7 +63,7 @@ Dancer::Serializer::UUEncode - UU Encoding serializer for Dancer
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

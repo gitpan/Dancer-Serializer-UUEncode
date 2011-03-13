@@ -2,7 +2,7 @@ NAME
     Dancer::Serializer::UUEncode - UU Encoding serializer for Dancer
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
         # in your Dancer app:

@@ -29,10 +29,11 @@ my %WriteMakefileArgs = (
   'NAME' => 'Dancer::Serializer::UUEncode',
   'PREREQ_PM' => {
     'Carp' => '0',
+    'Dancer' => '0',
     'Dancer::Serializer::Abstract' => '0',
     'Storable' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
